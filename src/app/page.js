@@ -26,7 +26,7 @@ export default async function Home({searchParams}) {
     <div className=" bg-gray-100">
       <p className="font-bold text-xl md:text-[25px] m-1">SpaceX Launch Program</p>
        <div className="p-5 grid grid-cols-1 md:grid-cols-[300px_1fr] bg-gray-100 relative">
-      <div className="mb-4">
+      <div className="mb-6 md:mr-4">
       <Filter/>
 
       </div>
