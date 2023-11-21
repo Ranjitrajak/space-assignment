@@ -4,7 +4,7 @@ import Image from "next/image";
 const ProductCard = ({ item }) => {
  
   return (
-    <div className="border p-3 rounded-md  w-full md:w-[340px] bg-white">
+    <div className="border p-3 rounded-md  w-full md:w-[240px] bg-white">
       <div className="w-full flex justify-center items-center bg-gray-100 p-2">
         <Image
           src={item.links.mission_patch}
